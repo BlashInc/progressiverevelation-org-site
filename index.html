@@ -15,21 +15,32 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
     }
     h1 {
-      font-size: 2.3em;
-      margin-bottom: 0.4em;
+      font-size: 2.4em;
+      margin-bottom: 0.3em;
       letter-spacing: 0.03em;
     }
     h2 {
       font-weight: 400;
       font-size: 1.3em;
-      margin-top: 0;
+      margin: 0.4em 0 1.5em 0;
       color: #444;
+      max-width: 600px;
     }
-    p {
-      margin: 0.4em 0;
+    .quote {
+      font-style: italic;
+      margin: 1.2em auto;
+      max-width: 700px;
+      color: #333;
       font-size: 1.1em;
+      line-height: 1.6em;
+    }
+    .source {
+      margin-top: 0.2em;
+      font-size: 0.95em;
+      color: #666;
     }
     a {
       color: #2a6ad6;
@@ -49,11 +60,33 @@
 <body>
   <h1>UnityTruthJustice</h1>
   <h2>Dedicated to fostering spiritual growth and collective upliftment.</h2>
-  <p>Creator of the <strong>Cluster Activity Reporter</strong> app.</p>
+
+  <div class="quote">
+    “The earth is but one country, and mankind its citizens.”
+    <div class="source">— Bahá’u’lláh</div>
+  </div>
+
+  <div class="quote">
+    “Truthfulness is the foundation of all human virtues.”
+    <div class="source">— ‘Abdu’l-Bahá</div>
+  </div>
+
+  <div class="quote">
+    “Let your vision be world-embracing, rather than confined to your own self.”
+    <div class="source">— Bahá’u’lláh</div>
+  </div>
+
+  <div class="quote">
+    “The betterment of the world can be accomplished through pure and goodly deeds,
+    through commendable and seemly conduct.”
+    <div class="source">— Bahá’u’lláh</div>
+  </div>
+
   <p>
     <a href="privacy-policy.html">Privacy Policy</a> |
     <a href="support.html">Support</a>
   </p>
+
   <footer>
     &copy; 2025 UnityTruthJustice. All rights reserved.
   </footer>
